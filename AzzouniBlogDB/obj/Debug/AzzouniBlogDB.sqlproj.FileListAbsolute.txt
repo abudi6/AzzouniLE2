@@ -1,0 +1,10 @@
+C:\Users\aazzo\source\repos\AzzouniLE2\AzzouniBlogDB\bin\Debug\AzzouniBlogDB.dacpac
+C:\Users\aazzo\source\repos\AzzouniLE2\AzzouniBlogDB\bin\Debug\AzzouniBlogDB.dll
+C:\Users\aazzo\source\repos\AzzouniLE2\AzzouniBlogDB\bin\Debug\AzzouniBlogDB.pdb
+C:\Users\aazzo\source\repos\AzzouniLE2\AzzouniBlogDB\obj\Debug\AzzouniBlogDB.sqlproj.AssemblyReference.cache
+C:\Users\aazzo\source\repos\AzzouniLE2\AzzouniBlogDB\obj\Debug\Model.xml
+C:\Users\aazzo\source\repos\AzzouniLE2\AzzouniBlogDB\obj\Debug\refactor.xml
+C:\Users\aazzo\source\repos\AzzouniLE2\AzzouniBlogDB\obj\Debug\postdeploy.sql
+C:\Users\aazzo\source\repos\AzzouniLE2\AzzouniBlogDB\obj\Debug\predeploy.sql
+C:\Users\aazzo\source\repos\AzzouniLE2\AzzouniBlogDB\obj\Debug\AzzouniBlogDB.dll
+C:\Users\aazzo\source\repos\AzzouniLE2\AzzouniBlogDB\obj\Debug\AzzouniBlogDB.pdb
