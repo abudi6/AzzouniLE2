@@ -9,8 +9,7 @@
     <ProjectGuid>{e91f0038-7afb-480f-a3b4-30ebe4b763f0}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql150DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
-    <RootPath>
-    </RootPath>
+    <RootPath />
     <RootNamespace>AzzouniBlogDB</RootNamespace>
     <AssemblyName>AzzouniBlogDB</AssemblyName>
     <ModelCollation>1033, CI</ModelCollation>
@@ -48,7 +47,6 @@
   </PropertyGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
-    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
     <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
     <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
   </PropertyGroup>
@@ -58,12 +56,22 @@
     <Folder Include="Properties" />
     <Folder Include="dbo" />
     <Folder Include="dbo\Tables" />
+    <Folder Include="Stored Procedures" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Users.sql" />
     <Build Include="dbo\Tables\Posts.sql" />
+    <Build Include="Stored Procedures\spUsers_Authenticate.sql" />
+    <Build Include="Stored Procedures\spUsers_Register.sql" />
+    <Build Include="Stored Procedures\spPosts_Insert.sql" />
+    <Build Include="Stored Procedures\spPosts_List.sql" />
+    <Build Include="Stored Procedures\spPosts_Details.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="AzzouniBlogDB.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AzzouniBlogDB.publish.xml" />
+    <None Include="AzzouniBlogDB_1.publish.xml" />
   </ItemGroup>
 </Project>
